@@ -28,6 +28,44 @@
             width:40px;
             background-color:rgba(99, 206, 154, 0.845);
         }
+        .shapes{
+            height: 60px;
+        width: 150px;
+        /* background-color: green; */
+        border: 4px solid rgb(18, 199, 18);
+         /* padding: 10px; */
+         margin-left: 250px;
+        }
+
+        #shape1{
+        
+        border-radius: 10px;
+       
+        }
+        #shape2{
+            border-radius: 15px;
+        }
+        #shape3{
+            border-radius: 20px;
+        }
+        #shape4{
+            border-radius: 50px;
+        }
+        #shape5{
+            border-top-right-radius:50px;
+            border-bottom-left-radius: 50px;
+
+        }
+        .container{
+            
+            margin: 90px;
+            display: grid;
+
+            grid-template-columns: auto auto 15fr;
+            grid-template-rows: auto auto auto;
+            gap: 10px;
+
+        }
     </style>
 </head>
 <body>
@@ -53,5 +91,16 @@
         <td>80</td>
     </tr>
     </table>
+    <div class="container">
+        <div class="shapes" id="shape1"></div>
+        <div class="shapes" id="shape2"></div>
+        <div class="shapes" id="shape3"></div>
+        <div class="shapes" id="shape2"></div>
+        <div class="shapes" id="shape1"></div>
+        <div class="shapes" id="shape3"></div>
+        <div class="shapes" id="shape4"></div>
+        <div class="shapes" id="shape2"></div>
+        <div class="shapes" id="shape5"></div>
+      </div>
 </body>
 </html>
