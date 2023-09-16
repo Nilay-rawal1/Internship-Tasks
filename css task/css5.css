@@ -36,6 +36,7 @@ a{
 
 li{
     color: blue;
+    border-right: 1em solid black;
     background:linear-gradient(grey ,white,wheat);
     padding-top: 4px;
     padding-bottom: 4px;
