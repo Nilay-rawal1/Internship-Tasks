@@ -6,6 +6,9 @@
     <title>Bootstrap task 1</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
+      body{
+        background-color: lightgray;
+      }
         .container{
             background-color:skyblue;
             align-items: center;
@@ -14,6 +17,16 @@
         .nav{
             background-color: grey;
         }
+        .contain{
+          display: flex;
+          margin: auto;
+          right: 0;
+          position: absolute;
+          background-color: lightslategrey;
+          width: 20vw;
+          padding: 10px;
+          height: 87vh;
+        }
     </style>
 </head>
 <body>
@@ -21,19 +34,22 @@
        Ethnus layout
       </div>
       <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        <li class=" nav-item">
+          <a class=" dark nav-link active" aria-current="page" href="#">Active</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <li class=" nav-item">
+          <a class=" dark nav-link" href="#">Link</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <li class=" nav-item">
+          <a class=" dark nav-link" href="#">Link</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <li class=" nav-item">
+          <a class=" dark nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
       </ul>
+      <div class="contain">
+          This is
+      </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
